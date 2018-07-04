@@ -11,12 +11,16 @@
 //    {
 //        public static void Main()
 //        {
-//          ThreadPool.QueueUserWorkItem((s) =>
-//          {
-//              Console.WriteLine("Working on a thread from threadpool");
-//          });
+//            Task t = Task.Run(() =>
+//            {
+//                for (int x = 0; x < 100; x++)
+//                {
+//                    Console.Write('*');
+//                }
+//            });
 
-//            Console.ReadLine();
+//            t.Wait();
+//            Console.ReadKey();
 //        }
 //    }
 //}

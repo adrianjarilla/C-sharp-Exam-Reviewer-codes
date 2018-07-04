@@ -43,7 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.1 - Creating a thread with the Thread class.cs" />
+    <Compile Include="1.13 Using a TaskFactory.cs" />
+    <Compile Include="1.12 Attaching child tasks to a parent task.cs" />
+    <Compile Include="1.11 Scheduling different continuation tasks.cs" />
     <Compile Include="1.4 Stopping a thead.cs" />
+    <Compile Include="1.8 Starting a new Task.cs" />
+    <Compile Include="1.10 Adding a continuation.cs" />
+    <Compile Include="1.9 Using a Task that returns a value.cs" />
     <Compile Include="1.7 Queuing some work to the thread pool.cs" />
     <Compile Include="1.6 Using ThreadLocal.cs" />
     <Compile Include="1.5 Using the ThreadStaticAttribute.cs" />
