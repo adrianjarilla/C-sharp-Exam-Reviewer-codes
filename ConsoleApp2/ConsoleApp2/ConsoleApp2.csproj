@@ -43,6 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.1 - Creating a thread with the Thread class.cs" />
+    <Compile Include="1.17 Using Parallel Break.cs" />
+    <Compile Include="1.16 Using Parallel For and Foreach.cs" />
+    <Compile Include="1.15 Using TaskWaitAny.cs" />
+    <Compile Include="1.14 Using TaskWaitAll.cs" />
     <Compile Include="1.13 Using a TaskFactory.cs" />
     <Compile Include="1.12 Attaching child tasks to a parent task.cs" />
     <Compile Include="1.11 Scheduling different continuation tasks.cs" />
