@@ -44,6 +44,11 @@
   <ItemGroup>
     <Compile Include="1.1 - Creating a thread with the Thread class.cs" />
     <Compile Include="1.19 Scalability versus responsiveness.cs" />
+    <Compile Include="1.27 Catching AggregateException.cs" />
+    <Compile Include="1.26 Using ForAll.cs" />
+    <Compile Include="1.25 Making a parallel query sequential.cs" />
+    <Compile Include="1.24 Ordered Parallel Query.cs" />
+    <Compile Include="1.23 Unordered Parallel Query.cs" />
     <Compile Include="1.18 Async and await.cs" />
     <Compile Include="1.17 Using Parallel Break.cs" />
     <Compile Include="1.16 Using Parallel For and Foreach.cs" />
