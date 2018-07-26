@@ -31,7 +31,7 @@ namespace WpfApp1
             HttpClient httpClient = new HttpClient();
             string content = await httpClient.GetStringAsync("http://www.microsoft.com").ConfigureAwait(false);
 
-            Output.Content = content;
+            //Output.Content = content;
         }
     }
 }
