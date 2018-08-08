@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{BF445EBF-A977-4A3A-92D6-C83BD6298B4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam Ref 70-483 in C Sharp", "ConsoleApp2\Exam Ref 70-483 in C Sharp.csproj", "{BF445EBF-A977-4A3A-92D6-C83BD6298B4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{63714898-B50D-4CAF-9471-596560C82E74}"
 EndProject
