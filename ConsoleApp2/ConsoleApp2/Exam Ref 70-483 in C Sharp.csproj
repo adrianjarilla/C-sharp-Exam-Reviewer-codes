@@ -45,7 +45,8 @@
     <Compile Include="1.1 - Creating a thread with the Thread class.cs" />
     <Compile Include="1.19 Scalability versus responsiveness.cs" />
     <Compile Include="1.31 Enumerating a ConcurrentBag - Copy.cs" />
-    <Compile Include="1.36 Using the lock keyword - Copy.cs" />
+    <Compile Include="1.40 Using the interlocked class.cs" />
+    <Compile Include="1.37 Creating a deadlock.cs" />
     <Compile Include="1.36 Using the lock keyword.cs" />
     <Compile Include="1.35 Accesing shared data in a multithreaded application.cs" />
     <Compile Include="1.34 Using ConcurrentDictionary.cs" />

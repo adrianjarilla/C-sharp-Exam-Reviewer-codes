@@ -12,29 +12,23 @@ namespace ConsoleApp2
     {
         public static void Main()
         {
-            object lockA = new object();
-            object lockB = new object();
+            int n = 0;
 
             var up = Task.Run(() =>
             {
-                lock (lockA)
+                for (int i = 0; i < 1000000; i++)
                 {
-                    Thread.Sleep(1000);
-                    lock (lockB)
-                    {
-                        Console.WriteLine("Locked A and B");
-                    }
+                    Interlocked.Increment(ref n);
                 }
             });
 
-            lock (lockB)
+            for (int i = 0; i < 1000000; i++)
             {
-                lock (lockA)
-                {
-                    Console.WriteLine("Locked A and B");
-                }
+                Interlocked.Decrement(ref n);
             }
+
             up.Wait();
+            Console.WriteLine(n);
 
             Console.ReadLine();
         }
